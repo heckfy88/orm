@@ -1,5 +1,5 @@
-package domain.user
+package org.orm.domain.user
 
-class UserRole {
-    // User role entity here
+enum class UserRole {
+    STUDENT, TEACHER, ADMIN
 }

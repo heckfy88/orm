@@ -1,7 +1,6 @@
-package org.orm
+package org.orm.jpa
 
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.*
 import org.orm.domain.content.Assignment
 import org.orm.domain.content.Lesson
 import org.orm.domain.course.Course

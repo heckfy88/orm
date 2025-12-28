@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/postgres}
+    username: ${DB_USER:ruslanagaev}
+    password: ${DB_PASSWORD:1978}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        default_schema: learning
+        format_sql: true
+        show_sql: true
+
+  liquibase:
+    enabled: true
+    default-schema: public
+    change-log: classpath:db/changelog/db.changelog-master.xml

@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: ruslanagaev
+    password: 1978
+  jpa:
+    hibernate:
+      ddl-auto: create-drop   # для тестов, автоматически создаём и удаляем схему
+    show-sql: true
+  main:
+    allow-bean-definition-overriding: true
