@@ -24,10 +24,10 @@
 - **[CourseReview.kt](src/main/kotlin/org/orm/domain/course/CourseReview.kt)** - отзыв о курсе
 - **[Enrollment.kt](src/main/kotlin/org/orm/domain/course/Enrollment.kt)** – запись студента на курс, связывает студента с курсом.
 - **[Tag.kt](src/main/kotlin/org/orm/domain/course/Tag.kt)** - тег курса
-- **[AnswerOption.kt](src/main/kotlin/org/orm/domain/quiz/AnswerOption.kt)** – вариант ответа на вопрос викторины, один из них может быть правильным.
-- **[Question.kt](src/main/kotlin/org/orm/domain/quiz/Question.kt)** – вопрос викторины, может иметь варианты ответа.
-- **[Quiz.kt](src/main/kotlin/org/orm/domain/quiz/Quiz.kt)** – викторина, привязанная к модулю (1-1), содержит вопросы.
-- **[QuizSubmission.kt](src/main/kotlin/org/orm/domain/quiz/QuizSubmission.kt)** – результат прохождения викторины студентом, содержит оценку и время прохождения.
+- **[AnswerOption.kt](src/main/kotlin/org/orm/domain/quiz/AnswerOption.kt)** – вариант ответа на вопрос теста, один из них может быть правильным.
+- **[Question.kt](src/main/kotlin/org/orm/domain/quiz/Question.kt)** – вопрос теста, может иметь варианты ответа.
+- **[Quiz.kt](src/main/kotlin/org/orm/domain/quiz/Quiz.kt)** – тест, привязанный к модулю (1-1), содержит вопросы.
+- **[QuizSubmission.kt](src/main/kotlin/org/orm/domain/quiz/QuizSubmission.kt)** – результат прохождения теста студентом, содержит оценку и время прохождения.
 - **[User.kt](src/main/kotlin/org/orm/domain/user/User.kt)** – пользователь системы, может быть преподавателем или студентом.
 - **[UserProfile.kt](src/main/kotlin/org/orm/domain/user/UserProfile.kt)** - профиль пользователя
 
